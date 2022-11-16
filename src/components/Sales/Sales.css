@@ -1,0 +1,134 @@
+.sales__container {
+    padding-top: 117px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.sales__container_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-title {
+    
+}
+.left-title img {
+    padding: 10px;
+}
+.title1 {
+  display: flex;
+  z-index: 100;
+}
+
+.round-blue {
+  position: absolute;
+  z-index: 1;
+  width: 105px;
+  height: 105px;
+  left: 710px;
+  background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);
+  filter: blur(32px);
+
+}
+.round-orng {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 2050px;
+    left: 360px;
+    background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+    filter: blur(32px);
+}
+
+
+.title2 {
+    display: flex;
+}
+.title3 {
+
+}
+.left-about {
+    color: #BCBCBC;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.left-email {
+    color: #7D7D7D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+    padding-bottom: 10px;
+}
+
+.round2 {
+    position: relative;
+    left: 0;
+    top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 1000px;
+}
+.sales__container_right {
+    position: relative;
+    left: 210px;
+}
+@media(max-width: 900px) {
+
+ 
+    .left-title img {
+        width: 200px;
+        height: 80px;
+        padding-bottom: 300px;
+    }
+    .left-title img {
+        padding: 10px;
+    }
+
+
+    .left-about {
+        color: #BCBCBC;
+        font-weight: 400;
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+    }
+    .left-email {
+        color: #7D7D7D;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px; 
+        padding-bottom: 10px;
+    }
+    
+    .round2 {
+        position: relative;
+        left: 0;
+        top: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333333;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        width: 150px;
+        height: 150px;
+        background: #FFFFFF;
+        border-radius: 1000px;
+    }
+    .sales__container_right {
+        position: relative;
+        left: 210px;
+    }
+}

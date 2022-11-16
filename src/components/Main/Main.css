@@ -1,0 +1,9 @@
+.main {
+    background: #131111;
+    padding: 0 18.2%;
+}
+@media(max-width: 1200px) {
+    .main {
+        padding: 0 5%;
+    }
+}
